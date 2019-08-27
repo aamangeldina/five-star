@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reserve</title>
+  <link rel="stylesheet" type="text/css" href="main2.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="index.html"> FIVE </a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Loft1" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Апартаменты</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                  <a class="dropdown-item" href="Loft1.html">Лофт 1</a>
+                  <a class="dropdown-item" href="Loft1.html">Лофт 2</a>
+                  <a class="dropdown-item" href="Loft1.html"> Лофт 3</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Testimonials.html">Отзывы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Reserve.html">Бронирование</a>
+              </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Контакты</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Blog.html">Блог</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+      <!---content container-->
+      <header class="page-header header container-fluid">
+          <div class="overlay"></div>
+          <div class="description">
+              <h2> Бронирование </h2> 
+            </div>
+        </header>
+        
+        
+          <div class="container features">
+            <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                <h4 class="feature-title" class="left">Все апартаменты </h4>
+                <p>Лофт 1</p>
+                <p>Лофт 2</p>
+                <p>Лофт 3</p>
+                <h4 class="feature-title" class="left">Peak Schedule</h4>
+                <p>In the event your stay spans across peak / off-peak times, off-peak rates apply.</p>
+                <h5 class="feature-title" class="left">Peak Seasons</h5>
+                <p>November 15 – February 15 </p>
+                <p> June 1 – September 30</p>
+                <h5 class="feature-title" class="left">Off-peak Seasons</h5>
+                <p>February 16 – May 31 </p>
+                <p>October 1 – November 14</p>
+                </div>
+                <div class="col-lg-1 col-md-4 col-sm-12">
+
+                </div>
+              <div class="col-lg-5 col-md-4 col-sm-12">
+                <h4 class="feature-title" class="middle" >Введите Ваши данные </h4> 
+                <form class="form">
+                  <p>Name*</p>
+                  <div class="row">
+                  <div class="col-4 col-md-4 col-sm-12">
+                  <input type="text" name="firstname" class="style" required> 
+                 <p class="below"> First name </p>
+                 </div>
+                 <div class="col-4 col-md-4 col-sm-12"></div>
+                <div class="col-4 col-md-4 col-sm-12">
+                    <input type="text" name="lastname" class="style"class="style" required> <br>
+                 <p class="below"> Last name </p>
+                 </div>
+                </div>
+            <div class="email">
+            <p>E-mail adress*</p>
+            <input type="text" name="email" class="emailbox style" required></div>
+            <br>
+            <p>Rental selection</p>
+            <select name="apartments" class="belowlist style">
+                <option value="Лофт 1"class="belowlist">Лофт 1</option>
+                <option value="Лофт 2"class="belowlist">Лофт 2</option>
+                <option value="Лофт 3"class="belowlist">Лофт 3</option>
+              </select>
+              <br>
+
+          <div class="checkin">
+          <p>Planned Check-in</p>
+            <div class="row container">
+               <div class="col-lg-4 col-md-4 col-sm-12">
+                  <input type="text" name="month" class="half style"> 
+                   <p class="below"> MM </p>
+                   </div>
+                   <div class="col-lg-4 col-md-4 col-sm-12">
+                  <input type="text" name="day"class="half style"> <br>
+                  <p class="below"> DD </p></div>
+                   <div class="col-lg-4 col-md-4 col-sm-12">
+                  <input type="text" name="year" class="full style"> <br>
+                 <p class="below"> YYYY </p>
+                 </div>
+              </div>
+              <div class="checkin">
+                <p>Planned Check-out</p>
+                     <div class="row container">
+                     <div class="col-lg-4 col-md-4 col-sm-12">
+                        <input type="text" name="month" class="half style"> 
+                         <p class="below"> MM </p>
+                         </div>
+                         <div class="col-lg-4 col-md-4 col-sm-12">
+                        <input type="text" name="day"class="half style"> <br>
+                        <p class="below"> DD </p></div>
+                         <div class="col-lg-4 col-md-4 col-sm-12">
+                        <input type="text" name="year" class="full style"> <br>
+                       <p class="below"> YYYY </p>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="email">
+                    <p>Number of Adult Guests (including you)</p>
+                    <input type="text" name="email" class="emailbox style" required></div>
+                    <br>
+                    <div class="email">
+                      <p>Number of Child Guests (up to 12 years old)</p>
+                      <input type="text" name="email" class="emailbox style" required></div>
+                      <br>
+                      <div class="textbox">
+                        <p>Other notes</p>
+                        <input type="text" name="taxtbox" class="text below style" placeholder="Please let us know if you have any allergies" required></div>
+                        <button type="submit" class="submit">
+                          Submit
+                        </button>
+
+          </div>
+                </form>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-12">
+                  <h4 class="feature-title" class="right">Ваш отзыв</h4>
+                  <p div class="italics">We are constantly working to raise the bar on our services. If you have any questions or concerns about your experience, please let us know. Our support concierges are available 24/7.</p>
+                  <h5 class="feature-title" class="left">Cary Rowan</h5>
+                  <p>+1 (805) 555 0123 </p>
+                  <p>template.placeholder@gmail.com</p>
+                  <h5 class="feature-title" class="left">Kennedy Kosciuszko</h5>
+                <p>+1 (805) 555 0110</p>
+                <p>template.placeholder@gmail.com</p>
+                </div>
+              
+            </div>
+
+          
+
+
+
+
+
+      
+         
+          
+
+
+
+
+
+    
+  
+    <!---jQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <!---JS--->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
